@@ -1,0 +1,262 @@
+body {
+  background-color: #f4f4f4;
+}
+.iphone {
+  width: 341px;
+  height: 738px;
+  border-radius: 40px;
+  border: 9px solid #000;
+  background: #fff;
+  margin: auto;
+  margin-top: 50px;
+}
+/* header */
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.mut {
+  color: #000;
+  font-family: Inter;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 28px;
+  margin-top: 15px;
+  margin-right: 23px;
+}
+.camera-box {
+  width: 128px;
+  height: 33px;
+  border-radius: 0px 0px 15px 15px;
+  background: #000;
+  margin: auto 0;
+}
+nav {
+  width: 67px;
+  height: 13px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  gap: 7px;
+  margin-left: 17px;
+  margin-top: 17px;
+  margin-right: 22px;
+}
+nav img:nth-child(1) {
+  width: 17px;
+  height: 11px;
+}
+nav img:nth-child(2) {
+  width: 15px;
+  height: 12px;
+}
+nav img:nth-child(3) {
+  width: 24px;
+  height: 12px;
+}
+
+/* main */
+p {
+  margin: 0;
+  padding: 0;
+}
+.main {
+  position: relative;
+}
+.time {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.small {
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: auto;
+  margin-top: 43px;
+}
+.big {
+  color: #000;
+  font-family: Inter;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.photo {
+  width: 341px;
+  height: 393px;
+  background-color: #d4d1c7;
+  margin-bottom: 72px;
+  position: relative;
+}
+.photo:hover {
+  opacity: 0;
+  transition: 0.7s ease-in-out;
+}
+.bg {
+  position: absolute;
+  width: 341px;
+  height: 393px;
+  background-color: #d4d1c7;
+  margin-bottom: 72px;
+}
+.all {
+  position: absolute;
+}
+
+.face {
+  position: absolute;
+  width: 286.859px;
+  height: 284.524px;
+  flex-shrink: 0;
+  border-radius: 286.859px;
+  background: #3e3b38;
+  margin-left: 27.36px;
+  margin-top: 70.26px;
+}
+.left-ear {
+  position: absolute;
+  width: 108px;
+  height: 142px;
+  border-radius: 20px 300px 121px 180px;
+  background: #3e3b38;
+  box-shadow: 0px 54px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  margin: 9px 0 0 11px;
+}
+.right-ear {
+  position: absolute;
+  width: 106.073px;
+  height: 169.971px;
+  transform: rotate(6.334deg);
+  border-radius: 300px 51px 150px 90px;
+  background: #3e3b38;
+  box-shadow: 0px 54px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  margin: 8.68px 0.44px 203.68px 224.38px;
+}
+
+.noses {
+  position: absolute;
+  width: 286.859px;
+  height: 284.524px;
+  flex-shrink: 0;
+  border-radius: 286.859px;
+  overflow: hidden;
+}
+.left-yellow {
+  position: absolute;
+  width: 156.123px;
+  height: 101.553px;
+  margin-top: 221.2px;
+  margin-left: -41.44px;
+}
+.nose {
+  position: absolute;
+  width: 39px;
+  height: 31px;
+  margin-top: 253px;
+  margin-left: 120px;
+}
+.light {
+  position: absolute;
+  width: 13px;
+  height: 11px;
+  margin-top: 257px;
+  margin-left: 140px;
+}
+.right-yellow {
+  position: absolute;
+  width: 156.123px;
+  height: 101.553px;
+  margin-top: 221.2px;
+  margin-left: 164px;
+}
+
+.eyes {
+  position: absolute;
+}
+.left-eyebrow {
+  position: absolute;
+  margin-top: 172px;
+  margin-left: 59px;
+  z-index: 2;
+}
+.left-eye {
+  position: absolute;
+  margin-top: 183px;
+  margin-left: 58px;
+}
+.left-light {
+  position: absolute;
+  margin-top: 189px;
+  margin-left: 80px;
+  z-index: 3;
+}
+.right-eyebrow {
+  position: absolute;
+  margin-top: 170px;
+  margin-left: 174px;
+  z-index: 2;
+}
+.right-eye {
+  position: absolute;
+  margin-top: 179px;
+  margin-left: 180px;
+}
+.right-light {
+  position: absolute;
+  margin-top: 184px;
+  margin-left: 199px;
+  z-index: 3;
+}
+.container {
+  position: absolute;
+  width: 341px;
+  height: 393px;
+}
+.image {
+  position: absolute;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+/* footer */
+.footer {
+  display: flex;
+}
+footer div p {
+  margin: auto;
+  margin-top: 39px;
+  padding-bottom: 11px;
+  border-bottom: 4px solid #929292;
+}
+
+.circle {
+  background-color: #929292;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.circle:first-child {
+  margin-left: 31px;
+}
+.circle:last-child {
+  margin-right: 31px;
+}
+.flash {
+  width: 9px;
+}
+.camera {
+  width: 19px;
+}
